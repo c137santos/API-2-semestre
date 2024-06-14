@@ -142,7 +142,7 @@ public class App extends Application {
         Stage stage = new Stage();
         Parent root = loadFXML("statusReportByDate");
         stage.setScene(new Scene(root));
-        stage.setTitle("Relatório Situacional 2");
+        stage.setTitle("Relatório Valor Médio");
         stage.show();
     }
 
@@ -175,7 +175,7 @@ public class App extends Application {
         DefinitionRiskValuesController controller = fxmlLoader.getController();
         stage.setTitle("Definir valores de risco");
         stage.show();
-
+        
     }
 
     static void openManageStations() throws IOException {
